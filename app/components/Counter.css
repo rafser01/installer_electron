@@ -1,0 +1,122 @@
+`-+
+
+ckButton {
+  position: absolute;
+}
+
+.counter {
+  position: absolute;
+  top: 5%;
+  right: 3%;
+  font-size: 5rem;
+  font-weight: bold;
+  letter-spacing: -.025em;
+}
+.title{
+  position: absolute;
+  top: 48%;
+  left: 20%;
+  display: flex;
+  text-align: center;
+}
+.footer{
+  position: absolute;
+  bottom: 1%;
+  color: #000;
+  left: 30%;
+  display: flex;
+  text-align: center;
+}
+.dilog{
+  position: absolute;
+  top: 52%;
+  color: #000;
+  left: 30%;
+  display: block;
+  text-align: center;
+}
+.dilog h4{
+  text-align: center;
+  padding: 0;
+}
+button{
+  border: 0px;
+  background-color: #eee;
+   border-radius: 50%;
+   display: flex;
+}
+.btnGroup {
+  position: absolute;
+  top: 65%;
+  left: 38%;
+  display: flex;
+   background-color: #eee;
+  text-align: center;
+  margin: auto;
+}
+
+.btn {
+  font-size: 1.6rem;
+  font-weight: bold;
+  border-radius: 50%;
+  margin: 10px;
+  width: 100px;
+  height: 100px;
+  opacity: .7;
+  cursor: pointer;
+  font-family: Arial, Helvetica, Helvetica Neue;
+}
+.odduu{
+  position: absolute;
+  top: 24%;
+  left: 42%;
+  display: flex;
+  text-align: center;
+  font-size: 3.4rem;
+}
+
+.vmimg{
+  width: 130px;
+  height: 130px;
+  float: left;
+    border-radius: 45%;
+    background-color: #eee;
+    margin: auto;
+    cursor: pointer;
+}
+.vmimg1{
+  width: 130px;
+  height: 130px;
+  float: left;
+    border-radius: 45%;
+    background-color: #eee;
+    margin-left: 19px;
+    cursor: pointer;
+}
+.vmimgo{
+  height: 200px;
+   display: block;
+   float: left;
+   margin: auto;
+}
+.poweroff{
+  position: absolute;
+  bottom: 5%;
+  right: 1%;
+  display: flex;
+}
+.offimg{
+  height: 25px;
+   display: block;
+   float: right;
+   margin: auto;
+   cursor: pointer;
+}
+.wifiimg{
+  height: 25px;
+  width: 20px;
+   display: block;
+   float: right;
+   margin: auto;
+   cursor: pointer;
+}

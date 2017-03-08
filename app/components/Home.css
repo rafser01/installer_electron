@@ -1,0 +1,29 @@
+.container {
+  top: 30%;
+  left: 100px;
+  text-align: center;
+}
+.vmimg{
+	width: 200px;
+	height: 200px;
+	 display: block;
+	 float: left;
+    margin-left: auto;
+    margin-right: auto;
+}
+.container h2 {
+  font-size: 5rem;
+  color:green;
+}
+.odduu{
+  top: 30%;
+  left: 50%;
+  text-align: center;
+  font-size: 3.4rem;
+}
+.linux{
+
+}
+.container a {
+  font-size: 1.4rem;
+}

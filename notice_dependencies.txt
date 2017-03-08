@@ -1,0 +1,3 @@
+notice:
+    1. fdisk - it might not have installed on primary installation. In that case . ls /dev/*
+    
