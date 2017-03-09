@@ -166,6 +166,7 @@
     "child_process": "^1.0.2",
     "electron-debug": "^1.1.0",
     "font-awesome": "^4.7.0",
+    "fs-extra": "^2.0.0",
     "mori": "^0.3.2",
     "react": "^15.4.2",
     "react-dom": "^15.4.2",
