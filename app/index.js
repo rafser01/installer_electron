@@ -9,6 +9,7 @@ import './app.global.css';
 import io from 'socket.io-client'
 import {setState} from './actions/installerActions'
 import mori from 'mori'
+let serverIp='http://172.16.16.40:8090/';
 const store = configureStore();
 const history = syncHistoryWithStore(hashHistory, store);
 
@@ -18,7 +19,7 @@ render(
   </Provider>,
   document.getElementById('root')
 );
-const socket = io.connect('http://localhost:8090/', { query: "macId=cc:79:cf:f1:5f:7b" });
+const socket = io.connect(serverIp, { query: "macId=cc:79:cf:f1:5f:7b" });
 socket.on('state', state =>{
   console.log('vector  state', state.entries)
   if(state.entries!=undefined){
