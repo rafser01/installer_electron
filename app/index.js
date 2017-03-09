@@ -10,7 +10,7 @@ import io from 'socket.io-client'
 import {setState} from './actions/installerActions'
 import mori from 'mori'
 let serverIp='http://172.16.16.40:8090/';
-const store = configureStore();
+export const store = configureStore();
 const history = syncHistoryWithStore(hashHistory, store);
 
 render(
